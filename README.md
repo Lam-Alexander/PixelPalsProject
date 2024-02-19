@@ -1,5 +1,5 @@
 # PixelPalsProject
-This is a Virtual pet application built justing React-Native and Javascript.
+This is a virtual pet application built using React-Native and Javascript. This application includes pixel art that was created with Aseprite. 
 
 ## Downloading the Project
 
