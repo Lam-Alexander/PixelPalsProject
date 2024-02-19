@@ -1,4 +1,5 @@
 # PixelPalsProject
+This is a Virtual pet application built justing React-Native and Javascript.
 
 ## Running the project
 
