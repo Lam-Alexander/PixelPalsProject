@@ -1,6 +1,6 @@
 import {View, Text, Button} from 'react-native'
 import React from 'react'
-import styles from '../components/SelectionScreen/SelectionPageStyles'
+import styles from '../components/SelectionScreen/SelectionScreenStyles'
 // import BackButton from '../components/SelectionScreen/BackButton';
 
 const SelectionScreen = ({ navigation }) => {
