@@ -1,20 +1,18 @@
-//SelectionScreen.js
-import {View, Text, Button, StyleSheet } from 'react-native'
+import {View, Text, Button} from 'react-native'
 import React from 'react'
-import styles from '../components/SelectionPage/styles'
-
+import styles from '../components/SelectionScreen/SelectionPageStyles'
+// import BackButton from '../components/SelectionScreen/BackButton';
 
 const SelectionScreen = ({ navigation }) => {
-
-    const Handlepress = () => {
-        console.log('Handle Pressed');
+    const handleStartPress = () => {
+        navigation.navigate ('StartScreen')
     };
+
     return (
         <View>
-
             <Text style = {styles.titleText}> Welcome to Selection Screen</Text>
-
-            {/* <Button title = "Go Back" onPress = {() => {Handlepress(); navigation.navigate ('StartScreen');}}> </Button> */}
+            {/* <BackButton title="back" onPress ={handleStartPress} /> */}
+            <Button title = "Back" onPress = {handleStartPress} />
         </View>
     );
 };

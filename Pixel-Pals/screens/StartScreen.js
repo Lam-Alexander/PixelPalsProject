@@ -1,21 +1,20 @@
-// StartScreen.js
+import { View, Text, Button, Image} from "react-native";
+import React from "react";
+// import StartButton from '../components/StartScreen/StartButton';
 
-import {View, Text, Button } from 'react-native';
-import React from 'react';
-import StartButton from '../components/StartPage/StartButton';
+const StartScreen = ({navigation}) => {
+    const handleStartPress = () => {
+        navigation.navigate ('SelectionScreen')
+    };
 
-const StartScreen = ({ navigation }) => {
     return (
         <View>
-            <Text></Text>
-            
-            <Button title ="Start" onPress = {() => navigation.navigate('SelectionScreen')}>
-            </Button>
+            <Image source = {require('../assets/images/logo.png')} />
+            {/* <StartButton onPress = {handleStartPress} /> */}
+            <Button title="start" onPress = {handleStartPress} />
         </View>
     );
 };
 
-export default StartScreen
-
-
+export default StartScreen;
 
