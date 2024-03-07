@@ -1,18 +1,18 @@
-// StartPage > Styles.js
-import { StyleSheet } from 'react-native';
+// // StartPage > Styles.js
+// import { StyleSheet } from 'react-native';
 
-const styles = StyleSheet.create({
-    StartButton: {
-        alignItems: 'center',
-        justifyContent: 'center',
-        paddingVertical: 12,
-        paddingHorizontal: 0,
-        borderRadius: 4,
-        elevation: 3,
-        backgroundColor: 'transparent',
-    }
-});
+// const styles = StyleSheet.create({
+//     StartButton: {
+//         alignItems: 'center',
+//         justifyContent: 'center',
+//         paddingVertical: 12,
+//         paddingHorizontal: 0,
+//         borderRadius: 4,
+//         elevation: 3,
+//         backgroundColor: 'transparent',
+//     }
+// });
 
 
-export default styles;
+// export default styles;
 
