@@ -9,9 +9,10 @@ const styles = StyleSheet.create({
         paddingHorizontal: 0,
         borderRadius: 4,
         elevation: 3,
-        backgroundColor: 'red',
+        backgroundColor: 'transparent',
     }
 });
+
 
 export default styles;
 
