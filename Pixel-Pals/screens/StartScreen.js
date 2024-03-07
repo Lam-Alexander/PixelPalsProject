@@ -1,20 +1,19 @@
-import { View, Text, Button, Image} from "react-native";
+import { View, Button, ImageBackground } from "react-native";
 import React from "react";
-// import StartButton from '../components/StartScreen/StartButton';
+import ButtonStyle from "../components/StartScreen/ButtonStyles";
 
-const StartScreen = ({navigation}) => {
+const StartScreen = ({ navigation }) => {
     const handleStartPress = () => {
-        navigation.navigate ('SelectionScreen')
+        navigation.navigate('SelectionScreen');
     };
 
     return (
-        <View>
-            <Image source = {require('../assets/images/logo.png')} />
-            {/* <StartButton onPress = {handleStartPress} /> */}
-            <Button title="start" onPress = {handleStartPress} />
-        </View>
+        <ImageBackground source={require('../assets/images/StartScreen.png')} style={{ flex: 1 }}>
+            <View style={ButtonStyle.container}>
+                <Button title="Start" onPress={handleStartPress} />
+            </View>
+        </ImageBackground>
     );
 };
 
 export default StartScreen;
-
