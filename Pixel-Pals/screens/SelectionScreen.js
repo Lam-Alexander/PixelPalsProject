@@ -20,7 +20,7 @@ import DogSelectionWindowStyle from '../components/SelectionScreen/DogSelectionW
 
 const SelectionScreen = ({ navigation }) => {
     const handleStartPress = () => {
-        navigation.navigate('StartScreen')
+        navigation.navigate('GameScreen')
     };
 
     return (
