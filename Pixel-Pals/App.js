@@ -3,6 +3,8 @@ import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import StartScreen from "./screens/StartScreen";
 import SelectionScreen from "./screens/SelectionScreen";
+import GameScreen from "./screens/GameScreen";
+
 
 const Stack = createNativeStackNavigator();
 const App = () => {
@@ -17,13 +19,9 @@ const App = () => {
                 
             </Stack.Navigator>
 
+
         </NavigationContainer>
     );
 };
 
-export default App
-
-
-
-
-
+export default App;
