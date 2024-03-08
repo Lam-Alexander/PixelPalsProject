@@ -43,7 +43,6 @@ const SelectionScreen = ({ navigation }) => {
 
              <Image source={require('../assets/images/EmptySelectionWindow.png')} style = {{bottom:581, right:6.,zIndex:0 }} />
 
-
         </ImageBackground>
 
     );
