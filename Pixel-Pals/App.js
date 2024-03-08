@@ -10,11 +10,16 @@ const Stack = createNativeStackNavigator();
 const App = () => {
     return (
         <NavigationContainer>
-            <Stack.Navigator initialRouteName={StartScreen}>
-                <Stack.Screen name="PixelPals" component={GameScreen} options={{ headerShown: false }} />
-                <Stack.Screen name="SelectionScreen" component={SelectionScreen} options={{ headerShown: false }} />
-                <Stack.Screen name="StartScreen" component={StartScreen} options={{ headerShown: false }} />
+
+            <Stack.Navigator initialRouteName="StartScreen">
+
+                <Stack.Screen name = "Pixel Pals" component = {StartScreen} options = {{ headerShown: false }}/>
+                <Stack.Screen name = "SelectionScreen" component = {SelectionScreen} options = {{ headerShown: false }} />
+                <Stack.Screen name = "StartScreen" component = {StartScreen} options = {{ headerShown: false }} />
+                
             </Stack.Navigator>
+
+
         </NavigationContainer>
     );
 };
